@@ -1,0 +1,56 @@
+st.foreground:	#d6d6d6
+st.background:	#2d2a2e
+st.termname: st-256color
+st.cursorColor: #f8f8f2
+
+st.color0:	#2d2a2e
+st.color8:	#727072
+st.color1:	#fa2772
+st.color9:	#fa2772
+st.color2:	#a6e22e
+st.color10:	#a6e22e
+st.color3:	#ffd866
+st.color11:	#ffd866
+st.color4:	#66d9ef
+st.color12:	#66d9ef
+st.color5:	#ae81ff
+st.color13:	#ae81ff
+st.color6:	#a1efe4
+st.color14:	#a1efe4
+st.color7:	#d6d6d6
+st.color15:	#f9f8f5
+
+
+
+*.color0:	#272822
+*.color8:	#797979
+*.color1:	#ff6188
+*.color9:	#ff6188
+*.color2:	#a6e22e
+*.color10:	#a6e22e
+*.color3:	#ffd866
+*.color11:	#ffd866
+*.color4:	#66d9ef
+*.color12:	#66d9ef
+*.color5:	#ae81ff
+*.color13:	#ae81ff
+*.color6:	#a1efe4
+*.color14:	#a1efe4
+*.color7:	#d6d6d6
+*.color15:	#d6d6d6
+
+URxvt.geometry:		90x24
+URxvt*internalBorder:	24
+URxvt*depth:		32
+URxvt*saveline:		2000
+URxvt*scrollBar:	false
+URxvt*termName:	rxvt-256color
+URxvt*font:		xft:Terminus:pixelsize=16
+
+Xft.dpi:		96
+Xft.autohint:		0
+Xft.lcdfilter:		lcddefault
+Xft.hinting:		1
+Xft.antialias:		1
+Xft.rgba:		rgb
+
