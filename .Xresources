@@ -21,37 +21,52 @@ st.color7:	#d6d6d6
 st.color15:	#f9f8f5
 
 
-
 URxvt.foreground:	#d8dee9
 URxvt.background: #2e3440
 URxvt.cursorColor: #f8f8f2
-*.color0:	#2e3440
-*.color8:	#4c566a
-*.color1:	#fe7978
-*.color9:	#fe7978
-*.color2:	#bcf287
+
+!black
+*.color0:		#2e3440
+*.color8:		#4c566a
+
+!red
+*.color1:		#fe7978
+*.color9:		#fe7978
+
+!green
+*.color2:		#bcf287
 *.color10:	#bcf287
-*.color3:	#ead28a
-*.color11:#ead28a
-*.color4:	#87bcf2
+
+!yellow
+*.color3:		#f7eb92
+*.color11:	#f7eb92
+
+!blue
+*.color4:		#87bcf2
 *.color12:	#87bcf2
-*.color5:	#d5abfe
+
+!magenta
+*.color5:		#d5abfe
 *.color13:	#d5abfe
-*.color6:	#78fdfe
+
+!cyan
+*.color6:		#78fdfe
 *.color14:	#78fdfe
-*.color7:	#e5e9f0
+
+!white
+*.color7:		#e5e9f0
 *.color15:	#eceff4
 
-Xft.dpi:		96
-Xft.autohint:		0
-Xft.lcdfilter:		lcddefault
-Xft.hinting:		1
-Xft.antialias:		1
-Xft.rgba:		rgb
+Xft.dpi:							96
+Xft.autohint:					0
+Xft.lcdfilter:				lcddefault
+Xft.hinting:					1
+Xft.antialias:				1
+Xft.rgba:							rgb
 URxvt*internalBorder:	24
-URxvt*depth:		32
-URxvt.geometry:		82x24
-URxvt*saveline:		2000
-URxvt*scrollBar:	false
-URxvt*termName:	rxvt-256color
+URxvt*depth:					32
+URxvt.geometry:				82x24
+URxvt*saveline:				2000
+URxvt*scrollBar:			false
+URxvt*termName:				rxvt-256color
 URxvt*font:		xft:xos4 Terminus:size=12:antialias=true
