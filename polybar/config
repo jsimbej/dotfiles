@@ -1,6 +1,7 @@
 ;==========================================================
 ;
 ;
+;
 ;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
 ;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
 ;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
@@ -21,7 +22,7 @@
 background = #262626
 background-alt = #434343
 ;foreground = ${xrdb:color7:#222}
-foreground = #f8f8f2
+foreground = #d6d6d6
 foreground-alt = #d6d6d6
 primary = #ffb52a
 secondary = #e60053
@@ -30,7 +31,7 @@ alert = #bd2c40
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 27
+height = 28
 ;offset-x = 10%
 ;offset-y = 1%
 radius = 0.0
@@ -51,8 +52,8 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = Terminus:pixelsize=10;1
-font-1 = "Siji:style=Regular:pixelsize=10;1"
+font-0 = "Terminus:style=Regular:pixelsize=10;1"
+font-1 = "Hack Nerd Font Mono:style=Regular:pixelsize=17;1"
 
 modules-left = bspwm 
 modules-center = xwindow mpd
@@ -204,7 +205,7 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
+format-prefix = "﬙ "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #ffba00
 label = %percentage:2%%
@@ -245,11 +246,11 @@ interface = enp3s0
 interval = 3.0
 
 format-connected-underline = #ae81ff
-format-connected-prefix = " "
+format-connected-prefix = " "
+format-connected-prefix-font = 1
 format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = UP
+label-connected = " UP"
 
-format-disconnected =
 ;format-disconnected = <label-disconnected>
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
@@ -265,9 +266,10 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
-format-prefix-foreground = #f8f8f2
-format-underline = #29b6f6
+format-prefix = " "
+format-prefix-foreground = #d6d6d6
+format-prefix-font = 1
+format-underline = #b4f429
 
 label = %date% %time%
 
@@ -291,11 +293,11 @@ bar-volume-foreground-5 = #f5a70a
 bar-volume-foreground-6 = #e55257
 bar-volume-gradient = false
 bar-volume-indicator = |
-bar-volume-indicator-font = 2
+bar-volume-indicator-font = 0
 bar-volume-fill = ─
-bar-volume-fill-font = 2
+bar-volume-fill-font = 0
 bar-volume-empty = ─
-bar-volume-empty-font = 2
+bar-volume-empty-font = 0
 bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/alsa]
@@ -416,7 +418,7 @@ screenchange-reload = true
 ;pseudo-transparency = false
 
 [global/wm]
-margin-top = 2
+margin-top = 0
 margin-bottom = 3
 
 ; vim:ft=dosini
