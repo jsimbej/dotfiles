@@ -57,16 +57,16 @@ URxvt.cursorColor: #f8f8f2
 *.color7:		#e5e9f0
 *.color15:	#eceff4
 
-Xft.dpi:							95
+Xft.dpi:							96
 Xft.autohint:					0
 Xft.lcdfilter:				lcddefault
 Xft.hinting:					1
 Xft.antialias:				1
 Xft.rgba:							rgb
 URxvt*internalBorder:	24
-URxvt*depth:					32
+URxvt*depth:					24
 URxvt.geometry:				80x25
 URxvt*saveline:				2000
 URxvt*scrollBar:			false
 URxvt*termName:				rxvt-256color
-URxvt*font:		xft:Hack:style=Regular:size=10:antialias=true
+URxvt*font:		xft:Hack Nerd Font Mono:style=Regular:pixelsize=13:antialias=true
