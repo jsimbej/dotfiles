@@ -21,9 +21,9 @@ st.color7:	#d6d6d6
 st.color15:	#f9f8f5
 
 
-URxvt.foreground:	#d8dee9
+URxvt.foreground:	#e5e9f0
 URxvt.background: #2e3440
-URxvt.cursorColor: #f8f8f2
+URxvt.cursorColor: #d6d6d6
 
 !black
 *.color0:		#2e3440
@@ -34,24 +34,26 @@ URxvt.cursorColor: #f8f8f2
 *.color9:		#fe7978
 
 !green
-*.color2:		#bcf287
-*.color10:	#bcf287
+!*.color2:		#bcf287
+!*.color10:	#bcf287
+*.color2: #a3e07b
+*.color10: #a3e07b
 
 !yellow
-*.color3:		#f7eb92
-*.color11:	#f7eb92
+*.color3:		#fada73
+*.color11:	#fada73
 
 !blue
-*.color4:		#87bcf2
-*.color12:	#87bcf2
+*.color4:		#7fb7ee
+*.color12:	#7fb7ee
 
 !magenta
-*.color5:		#d5abfe
-*.color13:	#d5abfe
+*.color5:		#c181de
+*.color13:	#c181de
 
 !cyan
-*.color6:		#78fdfe
-*.color14:	#78fdfe
+*.color6:		#6cd9d9
+*.color14:	#6cd9d9
 
 !white
 *.color7:		#e5e9f0
@@ -63,10 +65,10 @@ Xft.lcdfilter:				lcddefault
 Xft.hinting:					1
 Xft.antialias:				1
 Xft.rgba:							rgb
-URxvt*internalBorder:	24
+URxvt*internalBorder:	22
 URxvt*depth:					24
 URxvt.geometry:				80x25
 URxvt*saveline:				2000
 URxvt*scrollBar:			false
 URxvt*termName:				rxvt-256color
-URxvt*font:		xft:Hack Nerd Font Mono:style=Regular:pixelsize=13:antialias=true
+URxvt*font:		xft:Hack Nerd Font Mono:style=Regular:pixelsize=12:antialias=true
