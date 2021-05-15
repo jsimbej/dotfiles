@@ -3,5 +3,5 @@ mpd_port = "6600"
 mpd_music_dir = "/mnt/free/music-lib"
 
 colors_enabled = "yes"
-main_window_color = "118"
-song_columns_list_format = (20)[222]{a} (6f)[118]{NE} (50)[118]{t|f:Title} (20)[118]{b} (7f)[215]{l}
+main_window_color = "blue"
+song_columns_list_format = (20)[215]{a} (6f)[blue]{NE} (50)[blue]{t|f:Title} (20)[blue]{b} (7f)[215]{l}
