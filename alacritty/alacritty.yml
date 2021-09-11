@@ -30,8 +30,8 @@ window:
   # must be at least `2`, while using a value of `0` for columns and lines will
   # fall back to the window manager's recommended size.
   dimensions:
-    columns: 82
-    lines: 26
+    columns: 84
+    lines: 28
 
   # Window position (changes require restart)
   #
@@ -50,7 +50,7 @@ window:
     y: 20
 
   # Spread additional padding evenly around the terminal content.
-  dynamic_padding: true
+  dynamic_padding: false
 
   # Window decorations
   #
@@ -111,7 +111,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Hack Nerd Font Mono
+    family: Terminus
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -122,7 +122,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Hack Nerd Font Mono
+    family: Terminus
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -150,7 +150,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 9.75
+  size: 13.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -179,7 +179,7 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#2e3440'
+    background: '#263240'
     foreground: '#e5e9f0'
 
     # Bright and dim foreground colors
@@ -268,23 +268,23 @@ colors:
 
   # Normal colors
   normal:
-    black:   '#2e3440'
-    red:     '#fc7779'
-    green:   '#a3e07b'
+    black:   '#263240'
+    red:     '#ff7889'
+    green:   '#b9ee79'
     yellow:  '#ffd773'
-    blue:    '#85bff9'
-    magenta: '#c181de'
+    blue:    '#67bcff'
+    magenta: '#eb8bfd'
     cyan:    '#6cd9d9'
     white:   '#e5e9f0'
 
   # Bright colors
   bright:
-    black:   '#4c566a'
-    red:     '#fc7779'
-    green:   '#a3e07b'
+    black:   '#263240'
+    red:     '#ff7889'
+    green:   '#b9ee79'
     yellow:  '#ffd773'
-    blue:    '#85bff9'
-    magenta: '#c181de'
+    blue:    '#67bcff'
+    magenta: '#eb8bfd'
     cyan:    '#6cd9d9'
     white:   '#eceff4'
 
