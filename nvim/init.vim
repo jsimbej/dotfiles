@@ -7,11 +7,13 @@ Plug 'preservim/nerdtree'
 Plug 'phanviet/vim-monokai-pro'
 call plug#end()
 
+filetype plugin indent on
 set number
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab autoindent
+set incsearch ignorecase smartcase hlsearch
 set t_Co=256
 set ruler
-filetype on
+set termguicolors
 syntax on
-let g:rehash256=1
 colorscheme mononoki
 let g:airline_theme='ayu_dark'
