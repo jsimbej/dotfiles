@@ -1,29 +1,6 @@
-st.foreground:	#d6d6d6
-st.background:	#2e3440
-st.termname: st-256color
-st.cursorColor: #f8f8f2
-
-st.color0:	#2e3440
-st.color8:	#4c566a
-st.color1:	#fa2772
-st.color9:	#fa2772
-st.color2:	#a6e22e
-st.color10:	#a6e22e
-st.color3:	#ffd866
-st.color11:	#ffd866
-st.color4:	#66d9ef
-st.color12:	#66d9ef
-st.color5:	#ae81ff
-st.color13:	#ae81ff
-st.color6:	#88c0d0
-st.color14:	#8fbcbb
-st.color7:	#d6d6d6
-st.color15:	#f9f8f5
-
-
-URxvt.foreground:	#e5e9f0
-URxvt.background: #2e3440
-URxvt.cursorColor: #d6d6d6
+URxvt.foreground:       #e5e9f0
+URxvt.background:       #2e3440
+URxvt.cursorColor:      #d6d6d6
 
 !black
 *.color0:		#2e3440
@@ -34,41 +11,39 @@ URxvt.cursorColor: #d6d6d6
 *.color9:		#fe7978
 
 !green
-!*.color2:		#bcf287
-!*.color10:	#bcf287
-*.color2: #a3e07b
-*.color10: #a3e07b
+*.color2:		#a3e07b
+*.color10:      #a3e07b
 
 !yellow
-*.color3:		#fada73
-*.color11:	#fada73
+*.color3:       #ffd773
+*.color11:      #ffd773
 
 !blue
-*.color4:		#7fb7ee
-*.color12:	#7fb7ee
+*.color4:       #85bff9
+*.color12:      #85bff9
 
 !magenta
-*.color5:		#c181de
-*.color13:	#c181de
+*.color5:       #c181de
+*.color13:      #c181de
 
 !cyan
-*.color6:		#6cd9d9
-*.color14:	#6cd9d9
+*.color6:       #6cd9d9
+*.color14:      #6cd9d9
 
 !white
-*.color7:		#e5e9f0
-*.color15:	#eceff4
+*.color7:       #e5e9f0
+*.color15:      #eceff4
 
-Xft.dpi:							96
-Xft.autohint:					0
-Xft.lcdfilter:				lcddefault
-Xft.hinting:					1
-Xft.antialias:				1
-Xft.rgba:							rgb
-URxvt*internalBorder:	22
-URxvt*depth:					24
-URxvt.geometry:				80x25
+Xft.dpi:                    96
+Xft.autohint:               0
+Xft.lcdfilter:              lcddefault
+Xft.hinting:                1
+Xft.antialias:              1
+Xft.rgba:                   rgb
+URxvt*depth:                24
+URxvt*internalBorder:       24
+URxvt.geometry:				80x28
 URxvt*saveline:				2000
 URxvt*scrollBar:			false
 URxvt*termName:				rxvt-256color
-URxvt*font:		xft:Hack Nerd Font Mono:style=Regular:pixelsize=12:antialias=true
+URxvt*font:		            xft:Hack Nerd Font Mono:style=Regular:size=11:antialias=true
